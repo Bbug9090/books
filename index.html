@@ -2,32 +2,21 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Book list</title>
+    <title>Guitar Collection</title>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <header>Most fav anime books</header>
+    <header>Guitar list</header>
     <div class="list">
       <ol class="list-items" id="list"></ol>
-      <form class="submit" action="index.html" method="post" id="newBook" name="newBook">
-        <h3>Add a new book</h3>
-        <input type="text" name="book_id" placeholder="New ID">
-        <input type="text" name="title" placeholder="Title">
-        <input type="text" name="cover" placeholder="Cover">
-        <input type="textarea" name="description" placeholder="Description">
-        <input type="text" name="author" placeholder="Author">
-        <input type="text" name="publish" placeholder="Publish Date">
-        <input type="submit" name="submit" placeholder="Add to list" id="submitter">
-      </form>
     </div>
     <ol class="details">
-      <h2>Please select a book</h2>
-      <img src="" alt="" id="poster">
-      <li id="title"></li>
-      <li id="author"></li>
-      <li id="publish"></li>
+      <h2>Select a guitar from the list</h2>
+      <img src="" alt="" id="image">
+      <li id="name"></li>
       <li id="description"></li>
-      <li id="lastRead"></li>
+      <li id="manufacture"></li>
+      <li id="year"></li>
     </ol>
     <script
       src="https://code.jquery.com/jquery-3.2.1.min.js"
